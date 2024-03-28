@@ -1,0 +1,66 @@
+.character-container {
+  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  height: 600px;
+  background-color: #000;
+  color: yellow;
+  border-radius: 25px;
+  max-width: 350px;
+}
+
+.information {
+  padding: 0 24px;
+  border-bottom: 5px solid red;
+  border-radius: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  background-color: red;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.block {
+  font-size: 20px;
+  justify-content: start;
+  font-family: 'Poppins';
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.block span {
+  font-family: 'Berani';
+}
+
+.loading {
+  color: red;
+}
+
+.image {
+  object-fit: contain;
+  height: 250px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1280px) {
+
+  .title {
+    font-size: 18px;
+  }
+
+  .image {
+    width: 250px;
+  }
+
+  .character-container {
+    max-width: 250px;
+  }
+}
